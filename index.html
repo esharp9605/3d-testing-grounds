@@ -94,23 +94,7 @@ draw = function() {
         line(n[e[i][0]][0], n[e[i][0]][1], n[e[i][1]][0], n[e[i][1]][1]);
     }
     
-    //fill(255, 0, 255, 50);
-    beginShape();
-    vertex(n[0][0], n[0][1]);
-    vertex(n[1][0], n[1][1]);
-    vertex(n[2][0], n[2][1]);
-    vertex(n[3][0], n[3][1]);
-    vertex(n[0][0], n[0][1]);
-    endShape();
     
-    //fill(0, 255, 0, 50);
-    beginShape();
-    vertex(n[4][0], n[4][1]);
-    vertex(n[5][0], n[5][1]);
-    vertex(n[6][0], n[6][1]);
-    vertex(n[7][0], n[7][1]);
-    vertex(n[4][0], n[4][1]);
-    endShape();
     
     for (var i = 0; i < n.length; i++) {
         noStroke();
